@@ -1,0 +1,6 @@
+C:\Users\carlo\source\repos\EmpleadoManager\DataEmpleados\bin\Debug\DataEmpleados.dll
+C:\Users\carlo\source\repos\EmpleadoManager\DataEmpleados\bin\Debug\DataEmpleados.pdb
+C:\Users\carlo\source\repos\EmpleadoManager\DataEmpleados\obj\Debug\DataEmpleados.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\EmpleadoManager\DataEmpleados\obj\Debug\DataEmpleados.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\EmpleadoManager\DataEmpleados\obj\Debug\DataEmpleados.dll
+C:\Users\carlo\source\repos\EmpleadoManager\DataEmpleados\obj\Debug\DataEmpleados.pdb

@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\carlo\\source\\repos\\EmpleadoManager\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{637F1E88-EDF4-41F4-A2DC-B54F51CDE355}|DataEmpleados\\DataEmpleados.csproj|c:\\users\\carlo\\source\\repos\\empleadomanager\\dataempleados\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637F1E88-EDF4-41F4-A2DC-B54F51CDE355}|DataEmpleados\\DataEmpleados.csproj|solutionrelative:dataempleados\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F571D828-DB58-42D9-A1ED-D5E31971BB2D}|Business\\Business.csproj|c:\\users\\carlo\\source\\repos\\empleadomanager\\business\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F571D828-DB58-42D9-A1ED-D5E31971BB2D}|Business\\Business.csproj|solutionrelative:business\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\EmpleadoManager\\DataEmpleados\\Class1.cs",
+              "RelativeDocumentMoniker": "DataEmpleados\\Class1.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\EmpleadoManager\\DataEmpleados\\Class1.cs",
+              "RelativeToolTip": "DataEmpleados\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T04:55:36.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\EmpleadoManager\\Business\\Class1.cs",
+              "RelativeDocumentMoniker": "Business\\Class1.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\EmpleadoManager\\Business\\Class1.cs",
+              "RelativeToolTip": "Business\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T04:54:23.431Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
