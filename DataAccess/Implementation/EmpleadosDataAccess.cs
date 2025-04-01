@@ -8,6 +8,6 @@ namespace DataAccess.Implementation
 {
     public class EmpleadosDataAccess
     {
-
+        public GetEmpleados
     }
 }
