@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Business.Implementation
 {
-    internal class EmpleadosBusiness
+    public class EmpleadosBusiness
     {
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccess.Models.Tables
 {
@@ -10,14 +6,15 @@ namespace DataAccess.Models.Tables
     {
         public int Id { get; set; } 
         public string Nombre { get; set; }
-        public int Edad {  get; set; }
-        public DateTime FechaNacimiento { get; set; }
         public string ApellidoPaterno { get; set; }
         public string ApellidoMaterno { get; set; }
-        public string FechaContratacion { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+        public DateTime FechaContratacion { get; set; }
         public string Telefono { get; set; }    
         public string Correo { get; set; }    
         public string Cargo { get; set; }    
-        public string Estado { get; set; }    
+        public bool Estado { get; set; }    
+        public int CargoId { get; set; }
+        public int DepartamentoId { get; set; }
     }
 }
