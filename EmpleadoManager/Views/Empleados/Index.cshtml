@@ -5,46 +5,53 @@
 }
 
 <h2>Index</h2>
+<script src="~/Scripts/bootstrap.js"></script>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
+<div>
+    <a href="" class="btn btn-success">Agregar</a>
+</div>
+<br />
+<table class="table table-hover">
     <tr>
         @*<th>
             @Html.DisplayNameFor(model => model.EmpleadoId)
         </th>*@
         <th>
-            @Html.DisplayNameFor(model => model.Nombre)
+            <label class="form-label">Nombre</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ApellidoPaterno)
+           <label class="form-label">Apellido Paterno</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ApellidoMaterno)
+           <label class="form-label">Apellido Materno</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.FechaNacimiento)
+            <label class="form-label">Fecha de Nacimiento</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.FechaContratacion)
+            <label class="form-label">Fecha de Contratación</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Telefono)
+            <label class="form-label">Teléfono</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Correo)
+            <label class="form-label">Correo Electrónico</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Estado)
+            <label class="form-label">Estado</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.CargoId)
+            <label class="form-label">Cargo</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DepartamentoId)
+            <label class="form-label">Departamento</label>
         </th>
-        <th></th>
+        <th>
+            <label class="form-label">Editar</label>
+        </th>
+        <th>
+            <label class="form-label">Eliminar</label>
+        </th>
     </tr>
 
 @foreach (var item in Model) {
@@ -83,9 +90,10 @@
             @Html.DisplayFor(modelItem => item.DepartamentoId)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("Edit", "Edit", new { id = item.EmpleadoId }, new { @class="btn btn-primary"} ) 
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id = item.EmpleadoId }, new { @class = "btn btn-danger" })
         </td>
     </tr>
 }
