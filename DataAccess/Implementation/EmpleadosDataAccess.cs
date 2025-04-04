@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using DataAccess.Models.Tables;
 
@@ -8,7 +9,7 @@ namespace DataAccess.Implementation
 {
     public class EmpleadosDataAccess
     {
-        private string cadena = ConfigurationManager.ConnectionStrings[""].ConnectionString;
+        //private string cadena = ConfigurationManager.ConnectionStrings["conexionEmpleados"].ConnectionString;
 
         #region GET
         //Método para obtener una lista de registros
@@ -16,9 +17,11 @@ namespace DataAccess.Implementation
         {
             List<Empleados> listEmpleados = new List<Empleados>();
 
+            string cadena = "server=localhost\\SQLEXPRESS; database=EmpleadosDB; user=sa; password=DBForge2025; Trusted_Connection=True;";
             SqlConnection conexion = new SqlConnection(cadena);
             conexion.Open();
-            SqlCommand comand = new SqlCommand("",conexion);
+            SqlCommand comand = new SqlCommand("sp_ObtenerEmpleados", conexion);
+            comand.CommandType = CommandType.StoredProcedure;
             SqlDataReader reader  = comand.ExecuteReader();
 
             while (reader.Read())
@@ -33,7 +36,7 @@ namespace DataAccess.Implementation
                 empleados.Correo = Convert.ToString(reader["Correo"]);
                 empleados.Estado = Convert.ToBoolean(reader["Estado"]);
                 empleados.DepartamentoId = Convert.ToInt32(reader["DepartamentoId"]);
-                empleados.CargoId = Convert.ToInt32(reader["CardoId"]);
+                empleados.CargoId = Convert.ToInt32(reader["CargoId"]);
                 listEmpleados.Add(empleados);
             }
 

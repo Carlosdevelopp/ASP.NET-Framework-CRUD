@@ -78,3 +78,6 @@ C:\Users\carlo\source\repos\EmpleadoManager\EmpleadoManager\obj\Debug\EmpleadoMa
 C:\Users\carlo\source\repos\EmpleadoManager\EmpleadoManager\obj\Debug\EmpleadoManager.pdb
 C:\Users\carlo\source\repos\EmpleadoManager\EmpleadoManager\bin\Business.dll
 C:\Users\carlo\source\repos\EmpleadoManager\EmpleadoManager\bin\Business.pdb
+C:\Users\carlo\source\repos\EmpleadoManager\EmpleadoManager\bin\DataAccess.dll
+C:\Users\carlo\source\repos\EmpleadoManager\EmpleadoManager\bin\DataAccess.pdb
+C:\Users\carlo\source\repos\EmpleadoManager\EmpleadoManager\bin\DataAccess.dll.config
